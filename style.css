@@ -1,0 +1,113 @@
+body {
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e0f2f1;
+}
+header {
+    background-color: #004c3f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2 {
+    padding-left: 20px;;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin: 25px;
+}
+.hero-section {
+    background-image: linear-gradient(to right,#00695b,#25a499);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30vh;
+}
+.hero-section p {
+    margin: 0px;
+}
+.highlights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    margin: 20px;
+}
+.highlights article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff2df;
+    width: 250px;
+    border-radius: 10px;
+}
+.highlights article h3 {
+    color: #e9ae50;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.highlights article p {
+    margin: 15px;
+    color: #96928e;
+}
+.who-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 65vw;
+    border-radius: 10px;
+}
+.who-we-are h3 {
+    color: #00695b;
+    margin: 10px 0px;
+}
+.who-we-are .features {
+    display: flex;
+    gap: 20px;
+}
+.who-we-are .features .feat-card {
+    background-color: #e0f2f1;    
+    width: 20vw;
+    height: 110px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.who-we-are .features .feat-card h4 {
+    color: #00695b;
+    margin: 0px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #004c3f;
+    color: white;
+    padding: 20px;
+    height: auto;
+}
+footer .social-media-icons {
+    display: flex;
+    gap: 20px;
+}
+footer .social-media-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}

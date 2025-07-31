@@ -3,15 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85vw;
-  margin: 50px;
+  margin: 30px;
 }
 form {
   background-color: white;
   display: flex;
   flex-direction: column;
-  width: 50vw;
-  height: 40vh;
+  width: 50em;
   gap: 20px;
   padding: 30px;
   border-radius: 10px;

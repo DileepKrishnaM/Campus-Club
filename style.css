@@ -1,6 +1,11 @@
 body {
     font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #e0f2f1;
+    margin: 0%;
+}
+main {
+    display: flex;
+    flex-direction: column;
 }
 header {
     background-color: #004c3f;
@@ -25,7 +30,7 @@ nav a {
     justify-content: center;
     align-items: center;
     color: white;
-    height: 30vh;
+    height: 20vh;
 }
 .hero-section p {
     margin: 0px;
@@ -79,6 +84,7 @@ nav a {
 }
 .who-we-are .features {
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 .who-we-are .features .feat-card {

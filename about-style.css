@@ -1,0 +1,14 @@
+.features .team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 255, 218);
+    height: auto;
+    width: 250px;;
+    padding: 20px;
+    border-radius: 10px;
+}
+.team-card h4 {
+    margin-bottom: 0%;
+}
